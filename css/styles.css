@@ -794,8 +794,41 @@ font-style: normal;
 font-weight: 500;
 line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
+margin-top: 24px;
   }
 
-  .form-modal-window{
-    gap: 8px;
+ 
+
+  .label-modal-window {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+    color: #8E8F99;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 14px; /* 116.667% */
+letter-spacing: 0.48px;
+
   }
+
+
+  .input-window {
+    padding: 8px;
+  font-family: inherit;
+  border-radius: 4px;
+border: 1px solid rgba(46, 47, 66, 0.40);
+  }
+
+  .input-window:focus{
+    outline-color: #4D5AE5;
+
+  }
+
+  .container-window {
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+

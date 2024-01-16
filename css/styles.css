@@ -810,8 +810,22 @@ font-style: normal;
 font-weight: 400;
 line-height: 14px; /* 116.667% */
 letter-spacing: 0.48px;
+position: relative;
 
   }
+
+  .label-modal-window::before{
+    content: "";
+  position: absolute;
+  left: 10px;
+  top: 0;
+  bottom: 0;
+  width: 20px;
+  height: 18px;
+  background: url();
+  background-position: bottom;
+
+}
 
 
   .input-window {
@@ -824,6 +838,10 @@ border: 1px solid rgba(46, 47, 66, 0.40);
   .input-window:focus{
     outline-color: #4D5AE5;
 
+  }
+ .label-modal-window input::placeholder{
+    margin-left: 38px;
+    padding-left: 34px;
   }
 
   .container-window {

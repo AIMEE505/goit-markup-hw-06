@@ -832,18 +832,3 @@ border: 1px solid rgba(46, 47, 66, 0.40);
   }
 
 
-  .left-inner-addon {
-    position: relative;
-    width: 200px;
-}
-.left-inner-addon input {
-    padding-left: 24px;
-    width: 170px; /* 200px - 30px */
-}
-.left-inner-addon img {
-    position: absolute;
-    left: 0px;
-    padding: 10px 12px;
-    pointer-events: none;
-    top: 1rem;
-}

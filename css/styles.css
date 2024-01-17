@@ -822,7 +822,7 @@ position: relative;
   bottom: 0;
   width: 20px;
   height: 18px;
-  background: url();
+  background: url("../images/icons.svg#icon-email-black-18dp");
   background-position: bottom;
 
 }
@@ -849,4 +849,9 @@ border: 1px solid rgba(46, 47, 66, 0.40);
     padding: 0 24px;
   }
 
+input#nameicon {
+    background-image: url("../images/icons.svg#icon-email-black-18dp");
+background-repeat: no-repeat;
+text-indent: 20px;
 
+}

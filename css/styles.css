@@ -930,7 +930,7 @@ cursor: pointer;
     left: 0;
     height: 16px;
     width: 16px;
-    background-color: #eee;
+    border: 1px solid #8E8F99;
   }
 
 .privacypolicyaccept:hover input ~ .checkmark {

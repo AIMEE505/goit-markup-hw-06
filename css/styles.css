@@ -8,9 +8,6 @@
 
 }
 
-body{
-  margin: 0;
-}
 
 .header{
     border-bottom: 1px solid #e7e9fc;
@@ -329,6 +326,7 @@ body{
     font-family: var(--text-font-family);
     color: #434455; 
     background-color: #FFFFFFFF;
+    margin: 0;
 }
     .button {
     cursor: pointer;
